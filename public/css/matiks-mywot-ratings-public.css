@@ -1,0 +1,34 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.wot-icon {
+    display: inline;
+    height: 16px;
+    padding-top: 3px;
+    padding-left: 16px;
+    margin-left: 5px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.matiks_wot_excellent{
+    background:url("../img/16_excellent.png") bottom right no-repeat;
+}
+
+.matiks_wot_good{
+    background:url("../img/16_good.png") bottom right no-repeat;
+}
+.matiks_wot_unsatisfactory{
+    background:url("../img/16_unsatisfactory.png") bottom right no-repeat;
+}
+.matiks_wot_poor{
+    background:url("../img/16_poor.png") bottom right no-repeat;
+}
+.matiks_wot_very_poor{
+    background:url("../img/16_verypoor.png") bottom right no-repeat;
+}
+.matiks_wot_unknown{
+    background:url("../img/16_unknown.png") bottom right no-repeat;
+}

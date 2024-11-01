@@ -1,0 +1,340 @@
+# Copyright (C) 2015 TapAndTrust
+# This file is distributed under the same license as the Matiks_MyWOT package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TapAndTrust 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/matiks-mywot-"
+"ratings\n"
+"POT-Creation-Date: 2015-12-30 17:52+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-12-30 19:44+0100\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: Class/Analysis.php:39
+msgid "%d page, "
+msgid_plural "%d pages, "
+msgstr[0] "%d page, "
+msgstr[1] "%d pages, "
+
+#: Class/Analysis.php:40
+msgid "%d post and "
+msgid_plural "%d posts and "
+msgstr[0] "%d article et "
+msgstr[1] "%d articles et "
+
+#: Class/Analysis.php:41
+msgid "%d comment will be analyzed."
+msgid_plural "%d comments will be analyzed."
+msgstr[0] "%d commentaire va être analysé."
+msgstr[1] "%d commentaires vont être analysés."
+
+#: Class/Analysis.php:234
+msgid "The API key does not seem to be valid!"
+msgstr "La clé API ne semble pas être valide !"
+
+#: Class/Analysis.php:218
+msgid "%d domain to analyze"
+msgid_plural "%d domains to analyze"
+msgstr[0] "%d domaine à analyser"
+msgstr[1] "%d domaines à analyser"
+
+#: Class/Analysis.php:286
+msgid "Something went wrong with the WOT API!"
+msgstr "Une erreur s'est produite avec l'API de WOT !"
+
+#: Class/Analysis.php:368
+msgid "No previous scan to display!"
+msgstr "Aucune analyse précédente à afficher !"
+
+#: Class/Analysis.php:424
+msgid "Last analyze &nbsp;&nbsp; %1$s &nbsp;&nbsp; by &nbsp;&nbsp;<b>%2$s</b>"
+msgstr ""
+"Dernière analyse &nbsp;&nbsp; %1$s &nbsp;&nbsp; par &nbsp;&nbsp;<b>%2$s</b>"
+
+#: Class/DrawHTML.php:51
+msgid "<b>%d</b> link was found!</a></h1>"
+msgid_plural "<b>%d</b> links were found!</a></h1>"
+msgstr[0] "<b>%d</b> lien trouvé!</a></h1>"
+msgstr[1] "<b>%d</b> liens trouvés!</a></h1>"
+
+#: Class/DrawHTML.php:53
+msgid "no link was found!</a></h1>"
+msgstr "aucun lien trouvé!</a></h1>"
+
+#: Class/DrawHTML.php:58
+msgid "Author"
+msgstr "Auteur"
+
+#: Class/DrawHTML.php:59
+msgid "Post title"
+msgstr "Titre"
+
+#: Class/DrawHTML.php:60
+msgid "Comment"
+msgstr "Commentaire"
+
+#: Class/DrawHTML.php:61
+msgid "Rating"
+msgstr "Note"
+
+#: Class/DrawHTML.php:62
+msgid "Action"
+msgstr "Action"
+
+#: Class/DrawHTML.php:63
+msgid "URL"
+msgstr "URL"
+
+#: Class/DrawHTML.php:64
+msgid "LINK"
+msgstr "LIEN"
+
+#: Class/DrawHTML.php:77
+msgid "No domain to analyze with the criteria!"
+msgstr "Aucun domaine à analyser avec ces critères !"
+
+#: Class/DrawHTML.php:93
+msgid "YES"
+msgstr "OUI"
+
+#: Class/DrawHTML.php:93
+msgid "NO"
+msgstr "NON"
+
+#: Class/DrawHTML.php:94
+msgid "unknown"
+msgstr "Inconnu"
+
+#: Class/DrawHTML.php:95
+msgid "Disapprove"
+msgstr "Désapprouver"
+
+#: admin/class-matiks-mywot-ratings-admin.php:131
+#: admin/partials/matiks-mywot-ratings-admin-display.php:21
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/partials/inc/about.inc.php:12
+#: admin/partials/matiks-mywot-ratings-admin-display.php:24
+msgid "About"
+msgstr "A propos"
+
+#: admin/partials/inc/about.inc.php:15
+msgid ""
+"Tap&Trust helps you to protect your visitors by blocking unsafe links in "
+"comments. Thresholds can be customized in the settings page. This plugin "
+"also helps you to analyze your site to find malicious links and to "
+"disapprove them. A last tool allows you to easily validate your site at WOT."
+msgstr ""
+"Tap&Trust vous aide à protéger vos visiteurs en bloquant les liens "
+"malveillants dans les commentaires. Les seuils peuvent être modifiés dans "
+"les paramètres. Ce plugin permet également d'analyser son site pour trouver "
+"les liens non sécurisés et de les désapprouver. Un dernier outil permet de "
+"facilement valider son site sur WOT."
+
+#: admin/partials/inc/about.inc.php:20
+msgid ""
+"Tap&Trust for WordPress is not an official application of <a href=\"https://"
+"www.mywot.com\" target=\"_blank\">Web Of Trust</a> - MyWOT"
+msgstr ""
+"Tap&Trust pour WordPress n'est pas un plugin officiel de <a href=\"https://"
+"www.mywot.com\" target=\"_blank\">Web Of Trust</a> - MyWOT"
+
+#: admin/partials/inc/about.inc.php:24
+msgid ""
+"<span class=\"dashicons dashicons-warning\"></span> This plugin needs a "
+"valid API key to work properly. You can <a href=\"https://www.mywot.com/user/"
+"api\" target=\"_blank\">request yours</a> for free once you have created  <a "
+"href=\"https://www.mywot.com/en/signup\" target=\"_blank\">an account</a> at "
+"WOT"
+msgstr ""
+"<span class=\"dashicons dashicons-warning\"></span> Ce plugin nécessite une "
+"clé API valide pour fonctionner correctement. Vous pouvez <a href=\\"
+"\"https://www.mywot.com/user/api\\\" target=\"_blank\">demander la vôtre</a> "
+"gratuitement dès que vous aurez créé <a href=\"https://www.mywot.com/en/"
+"signup\" target=\"_blank\">un compte</a> sur WOT"
+
+#: admin/partials/inc/about.inc.php:28
+msgid ""
+"<span class=\"dashicons dashicons-email\"></span> If you have any questions, "
+"please contact me at matiks.net@gmail.com"
+msgstr ""
+"<span class=\"dashicons dashicons-email\"></span> Pour toute question, "
+"veuillez me contacter à cette adresse : matiks.net@gmail.com"
+
+#: admin/partials/inc/analysis.inc.php:14
+msgid "Analysis of pages, posts and comments"
+msgstr "Analyse des pages, articles et commentaires"
+
+#: admin/partials/inc/analysis.inc.php:16
+msgid "Include or exclude posts or comments from the analysis"
+msgstr "Inclure ou exclure des articles ou commentaires de l'analyse"
+
+#: admin/partials/inc/analysis.inc.php:20
+msgid "Analyze pages ?"
+msgstr "Analyser les pages ?"
+
+#: admin/partials/inc/analysis.inc.php:25
+msgid "Analyze posts ?"
+msgstr "Analyser les articles ?"
+
+#: admin/partials/inc/analysis.inc.php:30
+msgid "Analyze comments ?"
+msgstr "Analyser les commentaires ?"
+
+#: admin/partials/inc/analysis.inc.php:37
+msgid "Please, select at least one item!"
+msgstr "Veuillez choisir au moins un item !"
+
+#: admin/partials/inc/analysis.inc.php:41
+msgid "Retrieving URL in messages, please wait"
+msgstr "Récupération des URLs dans les messages, veuillez patienter"
+
+#: admin/partials/inc/analysis.inc.php:44
+msgid "Extraction of domains, please wait"
+msgstr "Extraction des domaines, veuillez patienter"
+
+#: admin/partials/inc/analysis.inc.php:81
+msgid "disapproved"
+msgstr "désapprouvé"
+
+#: admin/partials/inc/analysis.inc.php:82
+msgid "error"
+msgstr "erreur"
+
+#: admin/partials/inc/comments.inc.php:24
+msgid "Settings - Safety lock links in comments"
+msgstr "Paramètres - Bloquer les liens dans les commentaires"
+
+#: admin/partials/inc/comments.inc.php:26
+msgid "Customize the threshold to lock links in comments"
+msgstr "Personnaliser le seuil pour bloquer les liens dans les commentaires"
+
+#: admin/partials/inc/comments.inc.php:31
+msgid "MyWOT detection:"
+msgstr "Détection MyWOT :"
+
+#: admin/partials/inc/comments.inc.php:43
+msgid "Lock all links before to know their rating with WOT"
+msgstr "Bloquer tous les liens tant que leur note  n'est pas connue"
+
+#: admin/partials/inc/comments.inc.php:48
+msgid "Lock links having an unknown rating"
+msgstr "Bloquer les liens dont la note n'est pas connue"
+
+#: admin/partials/inc/comments.inc.php:58
+msgid "You need a valid API key to make this plugin work! This is free."
+msgstr ""
+"Vous devez posséder une clé d'API valide pour faire fonctionner ce plugin ! "
+"C'est gratuit."
+
+#: admin/partials/inc/comments.inc.php:65
+msgid "Your WOT API key "
+msgstr "Votre clé d'API MyWOT"
+
+#: admin/partials/inc/comments.inc.php:71
+#: admin/partials/inc/validate.inc.php:58
+msgid "Save"
+msgstr "Enregistrer"
+
+#: admin/partials/inc/validate.inc.php:17
+msgid "Website verification"
+msgstr "Vérification du site"
+
+#: admin/partials/inc/validate.inc.php:19
+#: admin/partials/inc/validate.inc.php:22
+msgid "Please, enter your verification code"
+msgstr "Veuillez entrer votre code de vérification"
+
+#: admin/partials/inc/validate.inc.php:26
+msgid "Code "
+msgstr "Code"
+
+#: admin/partials/inc/validate.inc.php:34
+msgid ""
+"You need <a href=\"https://www.mywot.com/en/signup\" target=\"_blank\">an "
+"account</a> at WOT and to <a href=\"https://www.mywot.com/profile/mysites\" "
+"target=\"_blank\">request your site</a>"
+msgstr ""
+"Vous devez avoir <a href=\"https://www.mywot.com/en/signup\" target=\"_blank"
+"\">un compte </a> sur WOT et  <a href=\"https://www.mywot.com/profile/mysites"
+"\" target=\"_blank\">réclamer votre site</a>"
+
+#: admin/partials/inc/validate.inc.php:37
+msgid "Click on \"<strong>[verify]</strong>\""
+msgstr "Cliquer sur <strong>[verify]</strong>"
+
+#: admin/partials/inc/validate.inc.php:40
+msgid ""
+"Copy/past the code similar to this in red: -<i><strong>&lt;meta name=\"wot-"
+"verification\" content=\"<em style=\"color:red;\">abcdefabc0123456789</em></"
+"strong></i>\"/>"
+msgstr ""
+"Copier/coller le code similaire à celui en rouge: -<i><strong>&lt;meta name="
+"\"wot-verification\" content=\"<em style=\"color:red;\">abcdefabc0123456789</"
+"em></strong></i>\"/>"
+
+#: admin/partials/inc/validate.inc.php:51
+msgid ""
+"To remove it, let the field above blank and click on <strong>Save</strong>"
+msgstr ""
+"Pour le supprimer, laisser le champ ci-dessus vide et cliquer sur "
+"<strong>Enregistrer</strong>"
+
+#: admin/partials/matiks-mywot-ratings-admin-display.php:22
+msgid "Website validation"
+msgstr "Validation site"
+
+#: admin/partials/matiks-mywot-ratings-admin-display.php:23
+msgid "Analysis"
+msgstr "Analyse"
+
+#: admin/partials/matiks-mywot-ratings-admin-display.php:40
+msgid ""
+"Error: cURL is NOT installed on this server. <a href=\"http://php.net/manual/"
+"install.unix.debian.php\" target=\"_blank\">Install cURL</a>"
+msgstr ""
+"Erreur: cURL n'est pas installé sur ce serveur. <a href=\"http://php.net/"
+"manual/install.unix.debian.php\" target=\"_blank\">Installer cURL</a>"
+
+#: admin/partials/matiks-mywot-ratings-admin-display.php:46
+msgid ""
+"You need <a href=\"https://www.mywot.com/en/signup\" target=\"_blank\">an "
+"account</a> at WOT and to <a href=\"https://www.mywot.com/profile/api\" "
+"target=\"_blank\">request your API key</a> to make this plugin works"
+msgstr ""
+"Vous devez posséder <a href=\"https://www.mywot.com/en/signup\" target="
+"\"_blank\">un compte</a> sur  WOT et <a href=\"https://www.mywot.com/profile/"
+"api\" target=\"_blank\">réclamer votre clé API</a> pour faire fonctionner ce "
+"plugin"
+
+#: admin/partials/matiks-mywot-ratings-admin-display.php:57
+msgid "Settings saved."
+msgstr "Paramètres enregistrés."
+
+#. Plugin Name of the plugin/theme
+msgid "TapAndTrust"
+msgstr "TapAndTrust"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://matiks.net"
+msgstr "https://matiks.net"
+
+#. Description of the plugin/theme
+msgid ""
+"Block unsafe links in comments. Improve your site's User Experience with the "
+"WOT API."
+msgstr ""
+"Bloquer les liens malveillants dans les commentaires. Augmentez votre "
+"expérience utilisateur avec l'API de WOT."
+
+#. Author of the plugin/theme
+msgid "Matiks"
+msgstr "Matiks"

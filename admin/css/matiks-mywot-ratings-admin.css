@@ -1,0 +1,330 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.mw_highlight {
+    margin-top: 20px;
+    padding: 9px 14px;
+    margin-bottom: 14px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+}
+
+.mw_line_result{padding-top:2px;padding-bottom: 2px;}
+
+.mw_alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.mw_alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.mw_alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.mw_alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.mw_alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+
+.mw_btn-default {
+    color: #363636;
+    background-color: #FFFFFF;
+    border-color: #9E9E9E;
+}
+
+.mw_btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #a7a9aa;
+    border-radius: 4px;
+}
+
+
+.mw_btn-custom {
+    background-color: #71b74d;
+    border-color: #71b74d;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 10px 15px 10px 15px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.mw_btn-custom:hover,
+.mw_btn-custom:focus,
+.mw_btn-custom:active,
+.mw_btn-custom.active {
+    background-color: #51972d;
+    border-color: #51972d;
+    color: #fff
+;
+}
+.mw_btn-custom.disabled:hover,
+.mw_btn-custom.disabled:focus,
+.mw_btn-custom.disabled:active,
+.mw_btn-custom.disabled.active,
+.mw_btn-custom[disabled]:hover,
+.mw_btn-custom[disabled]:focus,
+.mw_btn-custom[disabled]:active,
+.mw_btn-custom[disabled].active,
+fieldset[disabled] .mw_btn-custom:hover,
+fieldset[disabled] .mw_btn-custom:focus,
+fieldset[disabled] .mw_btn-custom:active,
+fieldset[disabled] .mw_btn-custom.active {
+    background-color: #65945d;
+    border-color: #65945d;
+}
+
+.loader-green-h{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background:url("../img/ajax-loader-green.gif") center no-repeat;
+}
+
+.loader-green-sq{
+    display: inline-block;
+    padding: 40px;
+    background:url("../img/ajax-loader_sq.gif") center no-repeat;
+}
+
+.mw_container {
+    padding: 15px 15px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow:  0px 1px 2px 0px rgba(0, 0, 0, .2);
+}
+.html5-progress-bar{margin-top: 20px;margin-bottom: 20px;}
+.html5-progress-bar progress {
+    background-color: #f3f3f3;
+    border: 0;
+    width: 90%;
+    height: 18px;
+    border-radius: 9px;
+}
+.html5-progress-bar progress::-webkit-progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 9px;
+}
+.html5-progress-bar progress::-webkit-progress-value {
+    background: #cdeb8e;
+    background: -moz-linear-gradient(top,  #cdeb8e 0%, #71b74d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#71b74d));
+    background: -webkit-linear-gradient(top,  #cdeb8e 0%,#71b74d 100%);
+    background: -o-linear-gradient(top,  #cdeb8e 0%,#71b74d 100%);
+    background: -ms-linear-gradient(top,  #cdeb8e 0%,#71b74d 100%);
+    background: linear-gradient(to bottom,  #cdeb8e 0%,#71b74d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+    border-radius: 9px;
+}
+.html5-progress-bar progress::-moz-progress-bar {
+    background: #cdeb8e;
+    background: -moz-linear-gradient(top,  #cdeb8e 0%, #71b74d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#71b74d));
+    background: -webkit-linear-gradient(top,  #cdeb8e 0%,#71b74d 100%);
+    background: -o-linear-gradient(top,  #cdeb8e 0%,#71b74d 100%);
+    background: -ms-linear-gradient(top,  #cdeb8e 0%,#71b74d 100%);
+    background: linear-gradient(to bottom,  #cdeb8e 0%,#71b74d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+    border-radius: 9px;
+}
+.html5-progress-bar .progress-value {
+    padding: 0px 5px;
+    line-height: 20px;
+    margin-left: 5px;
+    font-size: .8em;
+    color: #555;
+    height: 18px;
+    float: right;
+}
+
+.c-un{background-color: #c3c5c5;}
+.c-v-p{background-color: #fa1c1c;}
+.c-p{background-color: #ff5631;}
+.c-u{background-color: #ffd500;}
+.c-g{background-color: #8bd704;}
+.c-v-g{background-color: #52b000;}
+
+
+#wot_last_scan section, #wot_last_scan .pointer, #wot_last_scan h1, #wot_last_scan p {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#wot_last_scan {
+    margin-bottom:30px;
+}
+#wot_last_scan h1 {
+    margin:0;
+    margin-left: 30px;
+
+    font-size:20px;
+
+    padding: 10px 10px 10px 30px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+}
+
+#wot_last_scan h1 a {
+    color:black;
+    text-decoration: none;
+}
+#wot_last_scan section {
+    overflow:hidden;
+}
+
+
+
+table.matiks_net_table_result {
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Agenda-Light, sans-serif;
+    background: #dfdfdf; color: #333;
+    text-rendering: optimizeLegibility;
+    border-radius: 5px;
+}
+
+table.matiks_net_table_result thead th { font-weight: 600; }
+table.matiks_net_table_result thead th, table.matiks_net_table_result tbody td {
+    padding: .8rem;
+    text-align: left;
+}
+table.matiks_net_table_result tbody td {
+    padding: .8rem;
+    color: #333; background: #f1f1f1;
+}
+table.matiks_net_table_result tbody tr:not(:last-child) {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-width: 792px) {
+
+    table.matiks_net_table_result thead { display: none; }
+    table.matiks_net_table_result tbody td {
+        display: block; padding: .6rem;
+    }
+    table.matiks_net_table_result tbody tr td:first-child {
+        background: #dfdfdf; color: #333;
+        font-weight: bold;
+        font-size: 1.2rem;
+        border-radius: 5px;
+    }
+
+    table.matiks_net_table_result tbody td:before {
+        content: attr(data-th);
+        font-weight: bold;
+        display: inline-block;
+        width: 6rem;
+    }
+}
+
+
+#wot_last_scan section.ac_hidden p:not(.pointer) {
+    color:#fff;
+}
+
+#wot_last_scan section.ac_hidden {
+    height:44px;
+}
+#wot_last_scan .pointer {
+    padding:0;
+    margin:10px 0 0 6px;
+    line-height:20px;
+    width:13px;
+    position:absolute;
+}
+
+
+
+.matiks_wot_excellent{
+    background:url("../img/16_excellent.png") center left no-repeat;
+}
+
+.matiks_wot_good{
+    background:url("../img/16_good.png") center left no-repeat;
+}
+.matiks_wot_unsatisfactory{
+    background:url("../img/16_unsatisfactory.png") center left no-repeat;
+}
+.matiks_wot_poor{
+    background:url("../img/16_poor.png") center left no-repeat;
+}
+.matiks_wot_very_poor{
+    background:url("../img/16_verypoor.png") center left no-repeat;
+}
+.matiks_wot_unknown{
+    background:url("../img/16_unknown.png") center left no-repeat;
+}
+
+
+#mw_slider_container .rs-handle  {
+    background-color: transparent;
+    border: 8px solid transparent;
+    border-right-color: black;
+    margin: -6px 0px 0px 14px !important;
+    border-width: 6px 104px 6px 4px;
+}
+#mw_slider_container .rs-handle:before  {
+    display: block;
+    content: " ";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background: black;
+    right: -11px;
+    bottom: -11px;
+    border-radius: 100px;
+}
+#mw_slider_container .rs-tooltip  {
+    top: 75%;
+    font-size: 11px;
+}
+#mw_slider_container .rs-tooltip div  {
+    text-align: center;
+    background: orange;
+    color: white;
+    border-radius: 4px;
+    padding: 1px 5px 2px;
+    margin-top: 4px;
+}
+#mw_slider_container .rs-range-color  {
+    background-color: #c3c5c5;
+}
+#mw_slider_container .rs-path-color  {
+    background-color: #f3f3f3;
+}
